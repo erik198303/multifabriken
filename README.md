@@ -1,6 +1,9 @@
 # Multifabriken
 
-I den här uppgiften ska ni arbeta minst två och två i samma repo. Alla ska pusha upp kod till GitHub. 
-Uppgiften går ut på att skapa en konsolapplikation där man kan välja att beställa nya produkter från en fabrik. Fabriken kan producera bilar, godis, rör eller havremjölk. Via inmatning av beställning ska nya produkter skapas av den valda typen och samtliga produkter ska kunna listas av användaren. 
+* I den här uppgiften ska ni arbeta minst två och två i samma repo.
+* Alla ska pusha upp kod till GitHub. 
 
-Inlämningen innehåller även en skriftlig beskrivning av den egna kodens funktion och motivering av använda objektorienterade principer.
+Multifabriken AB vill skapa en konsolapplikation för sina kunder där man kan välja att beställa nya produkter från deras fabrik.
+Fabriken kan producera bilar, godis, rör eller havremjölk. Via inmatning av beställning ska nya produkter skapas av den valda typen och samtliga produkter man beställt ska kunna listas av användaren. 
+
+Ni ska dokumentera er lösning och kodens funktioner med förklaring och motivering av använda objektorienterade principer.
