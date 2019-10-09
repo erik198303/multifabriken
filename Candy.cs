@@ -8,14 +8,14 @@ namespace multifabriken
         public string flavor;
         public override void Config() 
         {
-			BaseConfig();
+			BaseConfigGram();
 			
 			Console.WriteLine("Ange smak:");
 			flavor = Console.ReadLine();
         }
         public override void PrintReceipt()
         {
-		Console.WriteLine("[KVITTO] Antal: {0} med smak {1}", amount,flavor);
+		Console.WriteLine("[KVITTO] Antal godis i gram: {0} med smak: {1}",gram,flavor);
         }
     }
 }

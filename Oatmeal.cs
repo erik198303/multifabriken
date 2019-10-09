@@ -4,10 +4,10 @@ namespace multifabriken
 {
     class Oatmeal : Product
     {
-         public int fatContent;
+        public int fatContent;
         public override void Config() 
         {
-			BaseConfig();
+			BaseConfigLiter();
 			
             Console.Write("Ange fetthalt(2% - 11% ): ");
             fatContent = Convert.ToInt32(Console.ReadLine()); 
@@ -15,7 +15,7 @@ namespace multifabriken
         }
         public override void PrintReceipt()
         {
-		Console.WriteLine("[KVITTO] Fetthalt på havemjölk: {0} och mängd {1} liter.",fatContent,amount);
+		Console.WriteLine("[KVITTO] Mängd havremjölk: {0}liter med fetthalt: {1}%",liter,fatContent);
         }
     }
 }

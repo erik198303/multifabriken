@@ -4,7 +4,7 @@ namespace multifabriken
 {
     class Pipe : Product
     {
-         public string material;
+        public string material;
         public override void Config() 
         {
 			BaseConfig();
@@ -14,7 +14,7 @@ namespace multifabriken
         }
         public override void PrintReceipt()
         {
-		Console.WriteLine("[KVITTO] Antal rör: {0} av material {1},",amount,material);
+		Console.WriteLine("[KVITTO] Antal: {0}, av material: {1}",amount,material);
         }
        
     }

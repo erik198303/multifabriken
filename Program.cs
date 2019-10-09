@@ -7,7 +7,7 @@ namespace multifabriken
     {
         static void Main(string[] args)
         {
-            List<Product> myCart = new List<Product>();
+        List<Product> myCart = new List<Product>();
 
             
 
@@ -69,14 +69,14 @@ namespace multifabriken
                         break;
 
                     case "2":
-                     foreach(Product product in myCart)
-                     {
-                        product.PrintReceipt();
-                     }
-                     Console.ReadKey();
                     break;  
 
                     case "3":
+                    foreach(Product product in myCart)
+                    {
+                        product.PrintReceipt();
+                    }
+                    Console.ReadKey();
                     break; 
 
                     case "4":
