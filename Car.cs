@@ -17,7 +17,7 @@ namespace multifabriken
         }
         public override void PrintReceipt()
         {
-		Console.WriteLine("[KVITTO] Antal: {0}, Bilmärke: {1} och färg {2}",amount,name,color);
+		Console.WriteLine("[Bil] Antal: {0}, Bilmärke: {1} och färg {2}",amount,name,color);
         }
        
     }

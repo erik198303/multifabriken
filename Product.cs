@@ -32,7 +32,7 @@ namespace multifabriken
 
 		public virtual void PrintReceipt() 
         {
-			Console.WriteLine("[KVITTO] " + amount + liter +" st produkter");
+			
         }
       
     }

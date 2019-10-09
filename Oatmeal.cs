@@ -15,7 +15,7 @@ namespace multifabriken
         }
         public override void PrintReceipt()
         {
-		Console.WriteLine("[KVITTO] Mängd havremjölk: {0}liter med fetthalt: {1}%",liter,fatContent);
+		Console.WriteLine("[Havremjölk] Mängd havremjölk: {0}liter med fetthalt: {1}%",liter,fatContent);
         }
     }
 }

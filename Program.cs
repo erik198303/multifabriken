@@ -69,6 +69,21 @@ namespace multifabriken
                         break;
 
                     case "2":
+                    
+                    int listCounter = 1;
+                    foreach(Product product in myCart)
+                    {
+                      
+                      System.Console.Write("Kvitto [{0}] ", listCounter++);
+                      product.PrintReceipt();
+
+                     
+                    }
+                   
+                    System.Console.Write("Vilken lista vill du ta bort: ");
+                    int input = Convert.ToInt32(Console.ReadLine());               
+                    myCart.RemoveAt(input);
+
                     break;  
 
                     case "3":

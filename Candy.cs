@@ -15,7 +15,7 @@ namespace multifabriken
         }
         public override void PrintReceipt()
         {
-		Console.WriteLine("[KVITTO] Antal godis i gram: {0} med smak: {1}",gram,flavor);
+		Console.WriteLine("[Godis] Antal godis i gram: {0} med smak: {1}",gram,flavor);
         }
     }
 }

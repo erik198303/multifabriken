@@ -14,7 +14,7 @@ namespace multifabriken
         }
         public override void PrintReceipt()
         {
-		Console.WriteLine("[KVITTO] Antal: {0}, av material: {1}",amount,material);
+		Console.WriteLine("[Rör] Antal: {0}, av material: {1}",amount,material);
         }
        
     }
