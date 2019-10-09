@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace multifabriken
 {
@@ -6,7 +7,10 @@ namespace multifabriken
     {
         static void Main(string[] args)
         {
-        //meny
+            List<Product> myCart = new List<Product>();
+
+            
+
         while (true)
             {
                 Console.Clear();
@@ -35,27 +39,41 @@ namespace multifabriken
                         {
                             case "1":
                                 Console.Clear();
-                        
+                                Car newCar = new Car();
+                                newCar.Config();
+                                myCart.Add(newCar);
                                 break;
 
                             case "2":
                                 Console.Clear();
-                               
+                                Candy newCandy = new Candy();
+                                newCandy.Config();
+                                myCart.Add(newCandy);
                                 break;
 
                             case "3":
                                 Console.Clear();
-                             
+                                Pipe newPipe =  new Pipe();
+                                newPipe.Config();
+                                myCart.Add(newPipe);
                                 break;
 
                             case "4":
                                 Console.Clear();
+                                Oatmeal newOatmeal = new Oatmeal();
+                                newOatmeal.Config();
+                                myCart.Add(newOatmeal);
                                 
                                 break;
                         }
                         break;
 
                     case "2":
+                     foreach(Product product in myCart)
+                     {
+                        product.PrintReceipt();
+                     }
+                     Console.ReadKey();
                     break;  
 
                     case "3":
